@@ -1,8 +1,12 @@
 {
   "expo": {
-    "name": "LeaseTracker",
-    "slug": "LeaseTracker",
+    "name": "Lease Tracker",
+    "description": "App to track mileage for car lease.",
+    "slug": "lease-tracker",
     "version": "1.0.0",
+    "privacy": "hidden",
+    "platforms": ["ios"],
+    "sdkVersion": "40.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,16 +21,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "bundleIdentifier": "dev.travisbutler.lease-tracker",
+      "buildNumber": "1.0.0"
     }
   }
 }
